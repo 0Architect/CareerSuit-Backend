@@ -87,7 +87,7 @@ def predict(input_data: PersonalityInput):
             }
         },
         "successStories": [
-            {"imageUrl": "https://example.com/image.jpg", "name": "Famous Person", "description": "Success story of a person with this temperament."}
+            {"imageUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4oVi8944egiCelyCWnDcUBUT7mAxldEx0bqKR-cWCxO32kjUbQlHw7ZNPzzL2F_MUT7leTQGpsjwYVjU0Tl8rACaKqW25g64v6TvGfw", "name": "Elon Musk", "description": "Success story of a person with this temperament."}
         ],
         "youAndYourCareer": "AI-generated text about how your personality fits into the career world."
     }
