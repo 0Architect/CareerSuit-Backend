@@ -4,9 +4,12 @@ import random
 
 app = FastAPI()
 
-# Expected request format
+# Updated model for the new structure
 class PersonalityInput(BaseModel):
-    responses: dict  # Dictionary containing personality types and their score lists
+    melancholy: list
+    sanguine: list
+    choleric: list
+    phlegmatic: list
 
 def calculate_temperament(responses):
     """Calculates temperament scores based on user responses."""
@@ -21,7 +24,7 @@ def determine_dominant_temperaments(temperaments):
     dominant, secondary = sorted_temperaments[0][0], sorted_temperaments[1][0]
     dominant_score, secondary_score = sorted_temperaments[0][1], sorted_temperaments[1][1]
 
-    if (dominant_score == secondary_score and secondary in ["sanguine", "choleric"]):
+    if (dominant_score == secondary_score and secondary in ["Sanguine", "Choleric"]):
         dominant, secondary = secondary, dominant
 
     total_score = dominant_score + secondary_score
@@ -56,7 +59,7 @@ def recommend_fields(dominant, secondary, dominant_percentage, secondary_percent
 
 @app.post("/predict")
 def predict(input_data: PersonalityInput):
-    responses = input_data.responses
+    responses = input_data.dict()
 
     # Step 1: Calculate Temperament Scores
     temperaments = calculate_temperament(responses)
