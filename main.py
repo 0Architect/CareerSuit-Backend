@@ -10,7 +10,7 @@ class PersonalityInput(BaseModel):
 
 def calculate_temperament(responses):
     """Calculates temperament scores based on user responses."""
-    temperaments = {"Melancholy": 0, "Sanguine": 0, "Choleric": 0, "Phlegmatic": 0}
+    temperaments = {"melancholy": 0, "sanguine": 0, "choleric": 0, "phlegmatic": 0}
     for temperament, response_list in responses.items():
         temperaments[temperament] += sum(response for response in response_list if response >= 4)
     return temperaments
@@ -37,10 +37,10 @@ def determine_dominant_temperaments(temperaments):
 def recommend_fields(dominant, secondary, dominant_percentage, secondary_percentage):
     """Recommends fields of study based on temperament blend."""
     recommendations = {
-        "Melancholy": ["Science"],
-        "Sanguine": ["Art"],
-        "Choleric": ["Social Science"],
-        "Phlegmatic": ["Science", "Social Science"],
+        "melancholy": ["Science"],
+        "sanguine": ["Art"],
+        "choleric": ["Social Science"],
+        "phlegmatic": ["Science", "Social Science"],
     }
 
     if dominant_percentage >= 90:
