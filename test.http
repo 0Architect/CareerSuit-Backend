@@ -1,0 +1,11 @@
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+  "personality_scores": {
+    "Melancholy": [1, 5, 3],
+    "Sanguine": [2, 5, 4],
+    "Choleric": [5, 4, 3],
+    "Phlegmatic": [3, 2, 5]
+  }
+}
