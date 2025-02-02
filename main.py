@@ -21,7 +21,7 @@ def determine_dominant_temperaments(temperaments):
     dominant, secondary = sorted_temperaments[0][0], sorted_temperaments[1][0]
     dominant_score, secondary_score = sorted_temperaments[0][1], sorted_temperaments[1][1]
 
-    if (dominant_score == secondary_score and secondary in ["Sanguine", "Choleric"]):
+    if (dominant_score == secondary_score and secondary in ["sanguine", "choleric"]):
         dominant, secondary = secondary, dominant
 
     total_score = dominant_score + secondary_score
