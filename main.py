@@ -4,76 +4,87 @@ import random
 
 app = FastAPI()
 
-# Define fields of study with descriptions and recommended courses
-FIELDS_OF_STUDY = {
-    "Science": {
-        "description": "The systematic study of the structure and behavior of the physical and natural world.",
-        "courses": {
-            "Physics": "The study of matter, energy, and the forces that govern them.",
-            "Biology": "The study of living organisms and their interactions.",
-            "Chemistry": "The study of substances, their properties, and reactions."
-        }
-    },
-    "Engineering": {
-        "description": "The application of science and math to solve real-world problems.",
-        "courses": {
-            "Mechanical Engineering": "Focuses on designing and manufacturing mechanical systems.",
-            "Electrical Engineering": "Deals with electrical systems, circuits, and power generation.",
-            "Civil Engineering": "Concerns the design and construction of infrastructure."
-        }
-    }
-}
-
-# Define personalities and famous people
-PERSONALITIES = {
-    "Melancholic": {
-        "famous_person": {"name": "Isaac Newton", "bio": "A mathematician and physicist who developed the laws of motion."},
-        "image_url": "https://example.com/newton.jpg"
-    },
-    "Phlegmatic": {
-        "famous_person": {"name": "Mahatma Gandhi", "bio": "A leader known for non-violent resistance."},
-        "image_url": "https://example.com/gandhi.jpg"
-    }
-}
-
-# Input model
+# Expected request format
 class PersonalityInput(BaseModel):
-    O_score: float
-    C_score: float
-    E_score: float
-    A_score: float
-    N_score: float
+    responses: dict  # Dictionary containing personality types and their score lists
+
+def calculate_temperament(responses):
+    """Calculates temperament scores based on user responses."""
+    temperaments = {"Melancholy": 0, "Sanguine": 0, "Choleric": 0, "Phlegmatic": 0}
+    for temperament, response_list in responses.items():
+        temperaments[temperament] += sum(response for response in response_list if response >= 4)
+    return temperaments
+
+def determine_dominant_temperaments(temperaments):
+    """Determines the dominant and secondary temperaments."""
+    sorted_temperaments = sorted(temperaments.items(), key=lambda item: item[1], reverse=True)
+    dominant, secondary = sorted_temperaments[0][0], sorted_temperaments[1][0]
+    dominant_score, secondary_score = sorted_temperaments[0][1], sorted_temperaments[1][1]
+
+    if (dominant_score == secondary_score and secondary in ["Sanguine", "Choleric"]):
+        dominant, secondary = secondary, dominant
+
+    total_score = dominant_score + secondary_score
+    dominant_percentage = (dominant_score * 100) / total_score if total_score else 0
+    secondary_percentage = (secondary_score * 100) / total_score if total_score else 0
+
+    if dominant_percentage == 100:
+        dominant_percentage = 50
+        secondary_percentage = 50
+
+    return dominant, secondary, dominant_percentage, secondary_percentage
+
+def recommend_fields(dominant, secondary, dominant_percentage, secondary_percentage):
+    """Recommends fields of study based on temperament blend."""
+    recommendations = {
+        "Melancholy": ["Science"],
+        "Sanguine": ["Art"],
+        "Choleric": ["Social Science"],
+        "Phlegmatic": ["Science", "Social Science"],
+    }
+
+    if dominant_percentage >= 90:
+        return recommendations[dominant]
+    elif dominant_percentage >= 70:
+        return recommendations[dominant] + recommendations.get(secondary, [])
+    elif dominant_percentage >= 60:
+        return f"Primary: {recommendations[dominant]}, You have significant capacity in: {recommendations.get(secondary,[])}"
+    elif dominant_percentage >= 50:
+        return f"Consider core courses in: {recommendations[dominant]} or {recommendations.get(secondary,[])}"
+    else:
+        return f"You have capacity for core study areas of both: {recommendations[dominant]} and {recommendations.get(secondary,[])}"
 
 @app.post("/predict")
 def predict(input_data: PersonalityInput):
-    # Simulating personality breakdown (for now, random percentages)
-    personality_breakdown = {
-        "Melancholic": random.randint(30, 70),
-        "Phlegmatic": 100 - personality_breakdown["Melancholic"]
-    }
+    responses = input_data.responses
 
-    # Select primary and secondary fields based on mock logic
-    primary_field = "Science"
-    secondary_field = "Engineering"
+    # Step 1: Calculate Temperament Scores
+    temperaments = calculate_temperament(responses)
 
-    primary_info = FIELDS_OF_STUDY[primary_field]
-    secondary_info = FIELDS_OF_STUDY[secondary_field]
+    # Step 2: Determine Dominant and Secondary Temperaments
+    dominant, secondary, dominant_percentage, secondary_percentage = determine_dominant_temperaments(temperaments)
 
-    # Generate LLM-based career insights (Placeholder text)
-    llm_generated_text = f"People with a {primary_field} background excel in analytical thinking and problem-solving."
+    # Step 3: Recommend Fields of Study
+    recommended_fields = recommend_fields(dominant, secondary, dominant_percentage, secondary_percentage)
 
-    # Get a famous person with a similar personality type
-    personality_type = "Melancholic" if personality_breakdown["Melancholic"] > 50 else "Phlegmatic"
-    famous_person = PERSONALITIES[personality_type]["famous_person"]
-    image_url = PERSONALITIES[personality_type]["image_url"]
-
+    # Step 4: Generate API Response
     return {
-        "personality_breakdown": personality_breakdown,
-        "primary_field": {"name": primary_field, "description": primary_info["description"]},
-        "primary_courses": primary_info["courses"],
-        "secondary_field": {"name": secondary_field, "description": secondary_info["description"]},
-        "secondary_courses": secondary_info["courses"],
-        "career_insights": llm_generated_text,
-        "famous_person": famous_person,
-        "image_url": image_url
+        "temperaments": [
+            {"name": dominant, "percentage": dominant_percentage, "description": f"The user's responses indicate strong alignment with {dominant} traits."},
+            {"name": secondary, "percentage": secondary_percentage, "description": f"The user's responses indicate moderate alignment with {secondary} traits."}
+        ],
+        "recommendations": {
+            "primary": {
+                "fieldOfStudy": {"name": recommended_fields[0], "description": "Best fit based on temperament."},
+                "courseOfStudy": [{"name": "Sample Course 1", "description": "Course description here."}]
+            },
+            "secondary": {
+                "fieldOfStudy": {"name": recommended_fields[1] if len(recommended_fields) > 1 else "None", "description": "Alternate field based on temperament."},
+                "courseOfStudy": [{"name": "Sample Course 2", "description": "Course description here."}]
+            }
+        },
+        "successStories": [
+            {"imageUrl": "https://example.com/image.jpg", "name": "Famous Person", "description": "Success story of a person with this temperament."}
+        ],
+        "youAndYourCareer": "AI-generated text about how your personality fits into the career world."
     }
