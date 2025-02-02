@@ -28,8 +28,9 @@ def determine_dominant_temperaments(temperaments):
         dominant, secondary = secondary, dominant
 
     total_score = dominant_score + secondary_score
-    dominant_percentage = (dominant_score * 100) / total_score if total_score else 0
-    secondary_percentage = (secondary_score * 100) / total_score if total_score else 0
+    dominant_percentage = round((dominant_score * 100) / total_score, 2) if total_score else 0
+    secondary_percentage = round((secondary_score * 100) / total_score, 2) if total_score else 0
+
 
     if dominant_percentage == 100:
         dominant_percentage = 50
