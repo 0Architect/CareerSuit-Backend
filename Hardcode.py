@@ -34,8 +34,8 @@ def determine_extroversion(primary, secondary, percentage):
 def closest_temperament(temperament):
     """Return the closest temperament for a 100% case."""
     closest = {
-        "melancholy": "phlegmatic", 
-        "phlegmatic": "melancholy",
+        "melancholic": "phlegmatic", 
+        "phlegmatic": "melancholic",
         "sanguine": "choleric",
         "choleric": "sanguine"
     }
@@ -53,31 +53,31 @@ demanding_courses = {
     ],
     "Social Sciences": [
         {"name": "Economics", "description": "Analyzing financial systems and economic policies."},
-        {"name": "Political Science", "description": "Studying government systems and political behavior."},
-        {"name": "International Relations", "description": "Exploring diplomacy, global policies, and international cooperation."},
-        {"name": "Psychology", "description": "Understanding human behavior and mental processes."},
         {"name": "Accounting", "description": "Managing financial records and ensuring regulatory compliance."},
         {"name": "Finance", "description": "Analyzing investments, assets, and financial markets."},
+        {"name": "Political Science", "description": "The study of government systems, political behavior, and the impact of policies on society."},
+        {"name": "Law", "description": "Understanding and applying legal principles in governance and justice."},
     ],
     "Arts": [
-        {"name": "Law", "description": "Understanding and applying legal principles in governance and justice."},
         {"name": "Film Directing", "description": "Bringing creative vision to life in cinematic productions."},
-        {"name": "Fine Arts", "description": "Exploring painting, sculpture, and other visual arts."},
-        {"name": "Music Production", "description": "Composing, recording, and producing music."},
-        {"name": "Creative Writing", "description": "Crafting compelling stories, poetry, and literature."}
+        {"name": "Fashion Design", "description": "Fashion Design is the art of creating clothing and accessories by combining creativity, textiles, and trends to develop functional and aesthetic styles."},
+        {"name": "Music Composition and Production", "description": "Involves music theory, instrumentation, recording techniques, and digital sound production, requiring both creativity and technical skill."},
+        {"name": "Animation and Visual Effects", "description": "Combines artistic creativity with technical mastery of digital tools, requiring expertise in software like Maya, Blender, or After Effects."},
+        {"name": "Industrial Design", "description": "Focuses on designing functional products with an emphasis on aesthetics, usability, and manufacturing processes, requiring both creativity and engineering knowledge."}
     ],
     "Entrepreneurship": [
-        {"name": "Business Strategy", "description": "Developing long-term plans for business growth."},
-        {"name": "Startup Leadership", "description": "Managing and scaling new business ventures."},
-        {"name": "Marketing", "description": "Creating and executing strategies to promote products and services."},
+        {"name": "Financial Engineering", "description": "Applies mathematical models to develop financial instruments and manage risk, involving complex quantitative analysis."},
+        {"name": "Actuarial Science", "description": "Uses mathematics, statistics, and financial theory to assess risk in insurance and finance, requiring extensive exams and certifications."},
+        {"name": "Business Law", "description": "Covers corporate regulations, contract law, and legal frameworks affecting businesses, requiring a strong grasp of legal principles."},
+        {"name": "International Business", "description": "Studies global markets, trade policies, and multinational business strategies, demanding knowledge of economics, law, and finance."},
+        {"name": "Investment Banking", "description": "Investment Banking is the financial service of advising corporations and governments on raising capital, mergers, acquisitions, and complex financial transactions."},
     ],
     "Medicine": [
         {"name": "Neurosurgery", "description": "Performing complex surgeries on the brain and nervous system."},
-        {"name": "Pharmaceutical Research", "description": "Developing new medications and medical treatments."},
-        {"name": "General Medicine", "description": "Diagnosing and treating common health conditions."},
-        {"name": "Nursing", "description": "Providing patient care and assisting in medical procedures."},
-        {"name": "Dentistry", "description": "Treating and maintaining oral health and hygiene."},
-        {"name": "Nursing", "description": "Providing patient care and assisting in medical procedures."},
+        {"name": "Cardiothoracic Surgery", "description": "Focuses on surgical procedures involving the heart, lungs, and chest cavity, demanding precision and extensive knowledge of human anatomy"},
+        {"name": "Orthopedic Surgery", "description": "Involves treating bone and muscle disorders through complex surgical interventions and rehabilitation."},
+        {"name": "General Surgery", "description": "Covers a broad range of surgical procedures on various organs, requiring mastery of anatomy and surgical techniques."},
+        {"name": "Oncology", "description": "Involves diagnosing and treating cancer, requiring deep knowledge of pathology, chemotherapy, and advanced treatment methods."},
     ]
 }
 
@@ -87,7 +87,7 @@ non_demanding_courses = {
         {"name": "Environmental Science", "description": "Studying ecosystems, sustainability, and conservation."},
         {"name": "Botany", "description": "The study of plants, their structures, and their functions."},
         {"name": "Zoology", "description": "Exploring animal biology, behavior, and habitats."},
-        {"name": "Microbiology", "description": "Studying microscopic organisms and their roles in nature."}
+        {"name": "Microbiology basics", "description": "Studying microscopic organisms and their roles in nature."}
     ],
     "Social Sciences": [
         {"name": "Sociology", "description": "Analyzing human societies, cultures, and social interactions."},
@@ -100,21 +100,22 @@ non_demanding_courses = {
         {"name": "Graphic Design", "description": "Creating visual content using artistic and digital techniques."},
         {"name": "Creative Writing", "description": "Crafting stories, poetry, and other literary works."},
         {"name": "Photography", "description": "Capturing and editing images professionally."},
-        {"name": "Music Performance", "description": "Playing instruments or singing in professional settings."},
+        {"name": "Film Studies", "description": "Analyzes movies, genres, and directors from a theoretical perspective rather than production or technical skills."},
         {"name": "Interior Design", "description": "Designing indoor spaces for functionality and aesthetics."}
     ],
     "Entrepreneurship": [
         {"name": "Small Business Management", "description": "Running and operating small-scale enterprises."},
-        {"name": "Marketing", "description": "Promoting and selling products and services."},
+        {"name": "Business Communication", "description": "Focuses on effective writing, presentations, and professional communication in a business setting."},
         {"name": "Retail Management", "description": "Overseeing sales and store operations."},
         {"name": "Public Relations", "description": "Managing company image and communications."},
         {"name": "Event Planning", "description": "Organizing and managing events and gatherings."}
     ],
     "Medicine": [
-        {"name": "General Medicine", "description": "Diagnosing and treating common illnesses."},
-        {"name": "Public Health", "description": "Promoting community health and disease prevention."},
-        {"name": "Physiotherapy", "description": "Helping patients recover movement and function."},
-        {"name": "Medical Laboratory Science", "description": "Conducting medical tests and research."}
+        {"name": "Medical Ethics", "description": "Explores moral principles in medicine, including patient rights and healthcare laws."},
+        {"name": "Public Health", "description": "Focuses on disease prevention, health promotion, and community health management."},
+        {"name": "Health and Wellness Studies", "description": "Covers general well-being, nutrition, mental health, and fitness with minimal technical depth."},
+        {"name": "Medical Sociology", "description": "Examines the social aspects of health, illness, and the healthcare system."},
+        {"name": "First Aid and Basic Life Support", "description": "Teaches emergency response techniques like CPR and wound care, without deep medical theory."}
     ]
 }
 
@@ -127,7 +128,7 @@ def determine_fields(primary, primary_percentage, secondary, secondary_percentag
     """
     # Default mapping from temperament to field
     default_field_map = {
-        "melancholy": "Sciences",
+        "melancholic": "Sciences",
         "sanguine": "Arts",
         "choleric": "Social Sciences",
         "phlegmatic": "Social Sciences"
@@ -142,11 +143,11 @@ def determine_fields(primary, primary_percentage, secondary, secondary_percentag
     secondary_demanding = True
 
     # Specific overrides based on instructions:
-    # If melancholy is dominant (>40%), engineering fields (within Sciences) might work.
-    if primary == "melancholy" and primary_percentage > 40:
+    # If melancholic is dominant (>40%), engineering fields (within Sciences) might work.
+    if primary == "melancholic" and primary_percentage > 40:
         primary_field = "Sciences"
-    # If dominant is melancholy and secondary is phlegmatic with >45% on melancholy, recommend Medicine.
-    if primary == "melancholy" and secondary == "phlegmatic" and primary_percentage > 45:
+    # If dominant is melancholic and secondary is phlegmatic with >45% on melancholic, recommend Medicine.
+    if primary == "melancholic" and secondary == "phlegmatic" and primary_percentage > 45:
         primary_field = "Medicine"
     # If sanguine is dominant (>50%), recommend Entrepreneurship.
     if primary == "sanguine" and primary_percentage > 50:
