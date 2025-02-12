@@ -54,22 +54,18 @@ df["Career_Category"] = df["Career"].apply(map_career_to_category)
 encoder_career = LabelEncoder()
 df["Career_Category"] = encoder_career.fit_transform(df["Career_Category"])
 
-# Feature selection (Using OCEAN + Aptitude Scores, NOT Temperament)
-FEATURES = ["O_score", "C_score", "E_score", "A_score", "N_score", 
-            "Numerical Aptitude", "Spatial Aptitude", "Perceptual Aptitude", 
-            "Abstract Reasoning", "Verbal Reasoning"]
+# Save mapping for later use
+career_label_map = dict(zip(encoder_career.classes_, range(len(encoder_career.classes_))))
+label_career_map = {v: k for k, v in career_label_map.items()}
+
+# Feature selection (Using OCEAN scores only, removing Aptitude Scores)
+FEATURES = ["O_score", "C_score", "E_score", "A_score", "N_score"]
 X = df[FEATURES]
 y = df["Career_Category"]
 
 # Standardize features for better model performance
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
-
-# Check class distribution
-sns.countplot(x=y)
-plt.xticks(rotation=90)
-plt.title("Career Category Distribution")
-plt.show()
 
 # Address class imbalance using SMOTE
 smote = SMOTE(random_state=42)
@@ -86,9 +82,10 @@ model.fit(X_train, y_train)
 cv_scores = cross_val_score(model, X_resampled, y_resampled, cv=5)
 print("Cross-validation accuracy:", cv_scores.mean())
 
-# Save model
+# Save model and preprocessing objects
 joblib.dump(model, 'modelv2_file.pkl')
+joblib.dump(scaler, 'scaler.pkl')
+joblib.dump(label_career_map, 'label_career_map.pkl')
 
-# Feature Importance
-lgb.plot_importance(model, max_num_features=10)
-plt.show()
+#TODO: Link with the main API
+#TODO: Retrain but remove 'other'
