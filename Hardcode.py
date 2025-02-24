@@ -34,8 +34,8 @@ def determine_extroversion(primary, secondary, percentage):
 def closest_temperament(temperament):
     """Return the closest temperament for a 100% case."""
     closest = {
-        "melancholic": "phlegmatic", 
-        "phlegmatic": "melancholic",
+        "melancholy": "phlegmatic", 
+        "phlegmatic": "melancholy",
         "sanguine": "choleric",
         "choleric": "sanguine"
     }
@@ -128,7 +128,7 @@ def determine_fields(primary, primary_percentage, secondary, secondary_percentag
     """
     # Default mapping from temperament to field
     default_field_map = {
-        "melancholic": "Sciences",
+        "melancholy": "Sciences",
         "sanguine": "Arts",
         "choleric": "Social Sciences",
         "phlegmatic": "Social Sciences"
@@ -143,11 +143,11 @@ def determine_fields(primary, primary_percentage, secondary, secondary_percentag
     secondary_demanding = True
 
     # Specific overrides based on instructions:
-    # If melancholic is dominant (>40%), engineering fields (within Sciences) might work.
-    if primary == "melancholic" and primary_percentage > 40:
+    # If melancholy is dominant (>40%), engineering fields (within Sciences) might work.
+    if primary == "melancholy" and primary_percentage > 40:
         primary_field = "Sciences"
-    # If dominant is melancholic and secondary is phlegmatic with >45% on melancholic, recommend Medicine.
-    if primary == "melancholic" and secondary == "phlegmatic" and primary_percentage > 45:
+    # If dominant is melancholy and secondary is phlegmatic with >45% on melancholy, recommend Medicine.
+    if primary == "melancholy" and secondary == "phlegmatic" and primary_percentage > 45:
         primary_field = "Medicine"
     # If sanguine is dominant (>50%), recommend Entrepreneurship.
     if primary == "sanguine" and primary_percentage > 50:
