@@ -1,326 +1,451 @@
 {
     "Sanguine-Choleric": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Jack_Ma_Yun%2C_Tianjin%2C_2008_%28cropped%29.jpg",
+            "name": "Jack Ma",
+            "description": "Energetic, visionary, and highly ambitious. Known for his resilience and ability to inspire others with his entrepreneurial mindset.\nSuccess: Co-founder of Alibaba Group, revolutionized e-commerce in China, and became a global business icon.\nMilestone Achievements: Founded Alibaba in 1999, led it to one of the largest IPOs in history ($25 billion in 2014), and expanded into various sectors, including cloud computing and digital finance.\nNet Worth: Estimated at over $20 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_World_Affairs_Council_and_Girard_College_present_Bill_Cosby_%286343666943%29_%28cropped_to_Cosby%29.jpg/640px-The_World_Affairs_Council_and_Girard_College_present_Bill_Cosby_%286343666943%29_%28cropped_to_Cosby%29.jpg",
+            "name": "Bill Cosby",
+            "description": "Outgoing, humorous, and confident, once celebrated for his charisma and communication skills.\nSuccess: Formerly one of the most influential comedians and actors in American television history.\nMilestone Achievements: Starred in 'The Cosby Show,' which was a cultural phenomenon in the 1980s. Also had a successful career as an author and philanthropist.\nNet Worth: Once estimated at around $400 million, but significantly impacted by legal issues."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Priyanka_Chopra_at_Filmfare_Awards_2013.jpg/640px-Priyanka_Chopra_at_Filmfare_Awards_2013.jpg",
+            "name": "Priyanka Chopra",
+            "description": "Charismatic, ambitious, and highly adaptable, excelling in multiple industries.\nSuccess: Internationally recognized actress, singer, and entrepreneur with a strong presence in both Bollywood and Hollywood.\nMilestone Achievements: Won Miss World 2000, starred in 'Quantico,' and became a global UNICEF Goodwill Ambassador. Successfully transitioned into Hollywood and married Nick Jonas.\nNet Worth: Estimated at $75 million."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/640px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg",
             "name": "Will Smith",
-            "description": "Energetic and charismatic actor and entrepreneur known for his confident and ambitious personality."
+            "description": "Charismatic, confident, and dynamic, known for his boundless energy and ability to reinvent himself.\nSuccess: A-list actor, rapper, and producer with massive influence in Hollywood.\nMilestone Achievements: Starred in 'The Fresh Prince of Bel-Air,' 'Men in Black,' 'Independence Day,' and 'King Richard' (winning an Oscar). Also built a strong social media presence.\nNet Worth: Estimated at $350 million."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tony_Robbins.jpg/230px-Tony_Robbins.jpg",
             "name": "Tony Robbins",
-            "description": "High-energy motivational speaker and entrepreneur, inspiring millions worldwide."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg",
-            "name": "Steve Jobs",
-            "description": "Visionary leader who combined charisma with bold decision-making to revolutionize technology."
+            "description": "High-energy, motivational, and persuasive, with a relentless drive to help others succeed.\nSuccess: One of the most successful motivational speakers, authors, and business strategists in the world.\nMilestone Achievements: Authored bestsellers like 'Awaken the Giant Within' and 'Unlimited Power.' Works with global leaders, athletes, and business moguls to improve performance.\nNet Worth: Estimated at $600 million."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Dwayne_Johnson_2%2C_2013.jpg",
             "name": "Dwayne 'The Rock' Johnson",
-            "description": "Actor and entrepreneur, known for his infectious enthusiasm and drive."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shonda_Rhimes_at_the_75th_Annual_Peabody_Awards_%28cropped%29.jpg",
-            "name": "Shonda Rhimes",
-            "description": "Successful TV producer and writer, known for her dynamic leadership in the entertainment industry."
-        }
-    ],
-    "Sanguine-Melancholy": [
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Robin_Williams_Happy_Feet_premiere.jpg",
-            "name": "Robin Williams",
-            "description": "Comedic genius with a deep, introspective side that fueled his legendary performances."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dickens_Gurney_head.jpg",
-            "name": "Charles Dickens",
-            "description": "Writer known for his engaging storytelling combined with deep social critique."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Lady_Gaga_Vogue_2024_02.jpg",
-            "name": "Lady Gaga",
-            "description": "Creative and expressive artist with an emotional depth reflected in her music and activism."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jim_Carrey_2020_cropped.jpg",
-            "name": "Jim Carrey",
-            "description": "Actor with an energetic, humorous persona but also a reflective and philosophical mind."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ed_Sheeran-6826_%28cropped%29.jpg",
-            "name": "Ed Sheeran",
-            "description": "Singer-songwriter whose emotional lyrics and charisma captivate audiences worldwide."
-        }
-    ],
-    "Sanguine-Phlegmatic": [
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ellen_DeGeneres_2011.jpg",
-            "name": "Ellen DeGeneres",
-            "description": "Talk show host with a relaxed and humorous approach, spreading joy and positivity."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Jimmy_Fallon%2C_Montclair_Film_Festival%2C_2013.jpg",
-            "name": "Jimmy Fallon",
-            "description": "Comedic and charming late-night host known for his lighthearted and friendly personality."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Jennifer_Aniston_2011_%28cropped_2%29.jpg",
-            "name": "Jennifer Aniston",
-            "description": "Actress beloved for her warm and relatable on-screen presence."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/John_Legend_May_2022.jpg",
-            "name": "John Legend",
-            "description": "Talented musician and philanthropist known for his soulful voice and calm demeanor."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Paul_McCartney_.jpg",
-            "name": "Paul McCartney",
-            "description": "Legendary musician known for his upbeat personality and timeless music."
-        }
-    ],
-    "Choleric-Sanguine": [
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Alexander_the_Great%2C_from_Alexandria%2C_Egypt%2C_3rd_cent._BCE%2C_Ny_Carlsberg_Glyptotek%2C_Copenhagen_%285%29_%2836375553176%29.jpg",
-            "name": "Alexander the Great",
-            "description": "Bold and ambitious military leader who conquered vast territories with his decisive leadership and charismatic presence."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg",
-            "name": "Theodore Roosevelt",
-            "description": "Energetic U.S. president known for his aggressive leadership style and dynamic public presence."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Richard_Branson_March_2015_%28cropped%29.jpg",
-            "name": "Richard Branson",
-            "description": "Founder of Virgin Group, known for his adventurous spirit and high-energy approach to entrepreneurship."
+            "description": "Charismatic, determined, and exceptionally driven, blending athleticism with business acumen.\nSuccess: Transitioned from a WWE superstar into one of the highest-paid actors and successful entrepreneurs.\nMilestone Achievements: Starred in 'Fast & Furious' and 'Jumanji' franchises, owns Teremana Tequila, and co-founded the XFL football league.\nNet Worth: Estimated at $800 million."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg",
             "name": "Oprah Winfrey",
-            "description": "Influential media mogul and philanthropist, known for her charismatic leadership and emotional intelligence."
+            "description": "Visionary, deeply empathetic, and incredibly persuasive, with a powerful presence.\nSuccess: Built a media empire and became one of the most influential women in the world.\nMilestone Achievements: Hosted 'The Oprah Winfrey Show' for 25 years, founded OWN Network, and became a billionaire philanthropist.\nNet Worth: Estimated at $2.5 billion."
         },
         {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Muhammad_Ali%2C_gtfy.00140.jpg",
-            "name": "Muhammad Ali",
-            "description": "Legendary boxer with a bold, confident personality and an unmatched ability to inspire people."
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Richard_Branson_March_2015_%28cropped%29.jpg",
+            "name": "Richard Branson",
+            "description": "Adventurous, fearless, and highly innovative, thriving on high-energy challenges.\nSuccess: Founder of Virgin Group, spanning over 400 companies across various industries.\nMilestone Achievements: Launched Virgin Records, Virgin Atlantic, and Virgin Galactic, pushing boundaries in space travel.\nNet Worth: Estimated at $3 billion."
+        }
+    ],
+    "Sanguine-Melancholy": [
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Trevor_Noah_June_2021_%28cropped%29_wider.png/640px-Trevor_Noah_June_2021_%28cropped%29_wider.png",
+            "name": "Trevor Noah",
+            "description": "Witty, insightful, and deeply introspective, balancing humor with sharp social commentary.\nSuccess: Acclaimed comedian, author, and former host of 'The Daily Show.'\nMilestone Achievements: Hosted 'The Daily Show' from 2015 to 2022, wrote the bestselling memoir 'Born a Crime,' and performed sold-out global comedy tours.\nNet Worth: Estimated at $100 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Lupita_Nyong%27o_May_2017.jpg/640px-Lupita_Nyong%27o_May_2017.jpg",
+            "name": "Lupita Nyong’o",
+            "description": "Elegant, expressive, and artistically profound, with a passion for storytelling and cultural impact.\nSuccess: Academy Award-winning actress known for her powerful performances.\nMilestone Achievements: Won an Oscar for '12 Years a Slave,' starred in 'Black Panther,' and became a prominent advocate for diversity in Hollywood.\nNet Worth: Estimated at $10 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Robin_Williams_Happy_Feet_premiere.jpg",
+            "name": "Robin Williams",
+            "description": "Brilliant, high-energy, and deeply empathetic, blending rapid-fire humor with heartfelt depth.\nSuccess: Legendary comedian and actor known for his improvisational genius.\nMilestone Achievements: Won an Academy Award for 'Good Will Hunting,' starred in classics like 'Dead Poets Society' and 'Mrs. Doubtfire,' and left a lasting impact on comedy and film.\nNet Worth: Estimated at $50 million at the time of his passing."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shonda_Rhimes_at_the_75th_Annual_Peabody_Awards_%28cropped%29.jpg",
+            "name": "Shonda Rhimes",
+            "description": "Creative powerhouse with a gift for crafting compelling and emotionally rich narratives.\nSuccess: One of the most successful television producers and screenwriters in Hollywood.\nMilestone Achievements: Created hit shows like 'Grey’s Anatomy,' 'Scandal,' and 'Bridgerton.' Signed a groundbreaking deal with Netflix.\nNet Worth: Estimated at $250 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dickens_Gurney_head.jpg",
+            "name": "Charles Dickens",
+            "description": "Masterful storyteller with a keen eye for social injustice and human nature.\nSuccess: One of the most influential novelists in history, shaping literature with timeless works.\nMilestone Achievements: Wrote classics like 'A Tale of Two Cities,' 'Oliver Twist,' and 'Great Expectations,' influencing generations of writers.\nNet Worth: Difficult to estimate historically, but widely regarded as one of the best-selling authors of all time."
+        }
+    ],
+    "Sanguine-Phlegmatic": [
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg/640px-Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg",
+            "name": "Bob Dylan",
+            "description": "Poetic, enigmatic, and effortlessly cool, blending folk wisdom with lyrical depth.\nSuccess: Iconic singer-songwriter and Nobel Prize winner in literature.\nMilestone Achievements: Revolutionized music with songs like 'Blowin’ in the Wind' and 'Like a Rolling Stone,' won multiple Grammys, and received the Nobel Prize in Literature in 2016.\nNet Worth: Estimated at $500 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Eddie_Murphy_by_David_Shankbone.jpg/640px-Eddie_Murphy_by_David_Shankbone.jpg",
+            "name": "Eddie Murphy",
+            "description": "Hilarious, laid-back, and naturally gifted, effortlessly commanding both stage and screen.\nSuccess: One of the greatest stand-up comedians and comedy actors in history.\nMilestone Achievements: Starred in 'Beverly Hills Cop,' 'Coming to America,' and 'Shrek.' Had a historic career in stand-up comedy with 'Delirious' and 'Raw.'\nNet Worth: Estimated at $200 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jackie_Chan_July_2016.jpg/640px-Jackie_Chan_July_2016.jpg",
+            "name": "Jackie Chan",
+            "description": "Charismatic, hardworking, and fun-loving, seamlessly blending action with humor.\nSuccess: Martial arts legend and one of the most recognized actors worldwide.\nMilestone Achievements: Starred in countless action-comedy films, including 'Rush Hour' and 'Police Story.' Pioneered a unique blend of martial arts and comedy.\nNet Worth: Estimated at $400 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jim_Carrey_2020_cropped.jpg",
+            "name": "Jim Carrey",
+            "description": "Expressive, eccentric, and deeply philosophical, channeling raw emotion into his performances.\nSuccess: Comedy superstar known for his over-the-top physical comedy and dramatic depth.\nMilestone Achievements: Starred in 'Ace Ventura,' 'The Truman Show,' and 'Eternal Sunshine of the Spotless Mind.' Won multiple Golden Globe Awards.\nNet Worth: Estimated at $180 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ed_Sheeran-6826_%28cropped%29.jpg",
+            "name": "Ed Sheeran",
+            "description": "Warm, introspective, and effortlessly charming, crafting heartfelt and relatable songs.\nSuccess: One of the best-selling music artists of the modern era.\nMilestone Achievements: Released chart-topping albums, won multiple Grammys, and wrote hit songs like 'Shape of You' and 'Perfect.'\nNet Worth: Estimated at $200 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ellen_DeGeneres_2011.jpg",
+            "name": "Ellen DeGeneres",
+            "description": "Charismatic, playful, and lighthearted, making audiences feel at ease.\nSuccess: Hosted one of the most successful daytime talk shows in history.\nMilestone Achievements: Hosted 'The Ellen DeGeneres Show' for nearly two decades, won multiple Emmy Awards, and became a major advocate for LGBTQ+ rights.\nNet Worth: Estimated at $380 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Jimmy_Fallon%2C_Montclair_Film_Festival%2C_2013.jpg",
+            "name": "Jimmy Fallon",
+            "description": "Friendly, quick-witted, and effortlessly entertaining, thriving in spontaneous humor.\nSuccess: Late-night television host and comedian known for his lighthearted approach.\nMilestone Achievements: Hosted 'The Tonight Show,' created viral celebrity segments, and starred in 'Saturday Night Live.'\nNet Worth: Estimated at $60 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Jennifer_Aniston_2011_%28cropped_2%29.jpg",
+            "name": "Jennifer Aniston",
+            "description": "Charming, relatable, and effortlessly elegant, captivating audiences for decades.\nSuccess: A-list actress and television icon.\nMilestone Achievements: Rose to fame as Rachel Green in 'Friends,' starred in hit films like 'Marley & Me' and 'The Morning Show.'\nNet Worth: Estimated at $300 million."
+        }
+    ],
+    "Choleric-Sanguine": [
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Vusi_Thembekwayo.jpg/640px-Vusi_Thembekwayo.jpg",
+            "name": "Vusi Thembekwayo",
+            "description": "Energetic, humorous, and charismatic with a sharp, philosophical mind.\nSuccess: Influential entrepreneur, author, and speaker.\nMilestone Achievements: Built a multimillion-dollar investment firm, renowned for business strategy and leadership insights.\nNet Worth: Estimated at $36 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Abiy_Ahmed_2019.jpg/640px-Abiy_Ahmed_2019.jpg",
+            "name": "Abiy Ahmed Ali",
+            "description": "Dynamic, bold, and visionary, balancing charisma with strategic thinking.\nSuccess: Prime Minister of Ethiopia and Nobel Peace Prize laureate.\nMilestone Achievements: Led peace efforts between Ethiopia and Eritrea, spearheaded national economic reforms.\nNet Worth: Estimated at $1 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/640px-Donald_Trump_official_portrait.jpg",
+            "name": "Donald J. Trump",
+            "description": "Confident, outspoken, and an expert in branding and persuasion.\nSuccess: Business mogul, television personality, and former U.S. president.\nMilestone Achievements: Built the Trump Organization, starred in ‘The Apprentice,’ and served as the 45th U.S. president.\nNet Worth: Estimated at $2.6 billion."
+        },
+        {
+            "imageUrl": "https://dailypost.ng/wp-content/uploads/2020/03/the-oyedepo-podcast-bishop-david-oyedepo-7e4_WbIEsag.1400x1400.jpg",
+            "name": "David Oyedepo",
+            "description": "Passionate, expressive, and an influential leader in faith and business.\nSuccess: Founder of Living Faith Church Worldwide, prolific author, and educationist.\nMilestone Achievements: Established Covenant University, one of Africa’s top private universities, and led one of the largest megachurches.\nNet Worth: Estimated at $200 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Paul_McCartney_.jpg",
+            "name": "Paul McCartney",
+            "description": "Charming, vibrant, and timeless in his artistry.\nSuccess: Legendary musician and former member of The Beatles.\nMilestone Achievements: Co-wrote some of the greatest hits in music history, successful solo career spanning decades.\nNet Worth: Estimated at $1.2 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Alexander_the_Great%2C_from_Alexandria%2C_Egypt%2C_3rd_cent._BCE%2C_Ny_Carlsberg_Glyptotek%2C_Copenhagen_%285%29_%2836375553176%29.jpg",
+            "name": "Alexander the Great",
+            "description": "Fearless, ambitious, and charismatic with an insatiable thirst for conquest.\nSuccess: One of history’s greatest military leaders.\nMilestone Achievements: Conquered vast territories from Greece to India, founded over 20 cities named after himself.\nNet Worth: Incalculable (controlled vast wealth of the ancient world)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg",
+            "name": "Theodore Roosevelt",
+            "description": "Energetic, bold, and relentless in leadership.\nSuccess: 26th President of the United States, conservationist, and military leader.\nMilestone Achievements: Led the Rough Riders in the Spanish-American War, established national parks, and strengthened the U.S. economy.\nNet Worth: Estimated at $125 million (inflation-adjusted)."
         }
     ],
     "Choleric-Melancholy": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Aliko_Dangote.jpg/640px-Aliko_Dangote.jpg",
+            "name": "Aliko Dangote",
+            "description": "Strategic, disciplined, and visionary in business.\nSuccess: Africa’s richest entrepreneur and industrialist.\nMilestone Achievements: Founded Dangote Group, the largest conglomerate in Africa, dominating cement, sugar, and oil industries.\nNet Worth: Estimated at $14 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sheikh_Maktoum.jpg/640px-Sheikh_Maktoum.jpg",
+            "name": "Sheikh Mohammed bin Rashid Al Maktoum",
+            "description": "Calculative, forward-thinking, and determined in leadership.\nSuccess: Ruler of Dubai and key figure in its transformation into a global city.\nMilestone Achievements: Developed Dubai into a financial hub, launched Emirates Airlines, and pioneered futuristic projects like Burj Khalifa.\nNet Worth: Estimated at $18 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/640px-Thomas_Edison2.jpg",
+            "name": "Thomas Edison",
+            "description": "Inventive, determined, and meticulous in execution.\nSuccess: Prolific inventor and businessman.\nMilestone Achievements: Invented the phonograph, light bulb, and motion picture camera; held over 1,000 patents.\nNet Worth: Estimated at $200 million (inflation-adjusted)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Strive_Masiwia%2C_Chairman%2C_Econet_Wireless_%2834345475883%29.jpg/640px-Strive_Masiwia%2C_Chairman%2C_Econet_Wireless_%2834345475883%29.jpg",
+            "name": "Strive Masiyiwa",
+            "description": "Resilient, strategic, and deeply invested in philanthropy.\nSuccess: Telecom magnate and African business leader.\nMilestone Achievements: Founded Econet Wireless, played a key role in Africa’s digital transformation.\nNet Worth: Estimated at $1.9 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Folorunsho_Alakija.jpg/640px-Folorunsho_Alakija.jpg",
+            "name": "Folorunsho Alakija",
+            "description": "Disciplined, precise, and highly strategic in wealth creation.\nSuccess: One of Africa’s wealthiest women, oil magnate, and fashion icon.\nMilestone Achievements: Built a fortune in oil, banking, and real estate, founded Supreme Stitches, a top Nigerian fashion brand.\nNet Worth: Estimated at $1 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Isabel_dos_Santos_-_090IdS.jpg/640px-Isabel_dos_Santos_-_090IdS.jpg",
+            "name": "Isabel dos Santos",
+            "description": "Calculated, strategic, and highly influential in finance.\nSuccess: Entrepreneur and investor, formerly Africa’s richest woman.\nMilestone Achievements: Held stakes in telecommunications, banking, and oil, played a key role in Angola’s economic growth.\nNet Worth: Estimated at $2 billion (formerly)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/The_National_Archives_UK_-_CO_1069-50-1.jpg/640px-The_National_Archives_UK_-_CO_1069-50-1.jpg",
+            "name": "Kwame Nkruma",
+            "description": "Visionary, analytical, and strategic in politics.\nSuccess: First President of Ghana and a Pan-African leader.\nMilestone Achievements: Led Ghana to independence, advocated for African unity, established key industrial and educational institutions.\nNet Worth: Unclear, but controlled national resources."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg",
+            "name": "Steve Jobs",
+            "description": "Brilliant, meticulous, and relentless in pursuit of perfection.\nSuccess: Co-founder of Apple Inc.\nMilestone Achievements: Revolutionized personal computing, digital music, and smartphones with Mac, iPod, iPhone, and iPad.\nNet Worth: Estimated at $10.2 billion at time of death."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Muhammad_Ali%2C_gtfy.00140.jpg",
+            "name": "Muhammad Ali",
+            "description": "Confident, strategic, and inspiring with a sharp mind for self-promotion.\nSuccess: Legendary boxer and cultural icon.\nMilestone Achievements: Won multiple heavyweight championships, became a global humanitarian, refused military draft on moral grounds.\nNet Worth: Estimated at $50 million at time of death."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Elon_Musk_Royal_Society_crop.jpg",
             "name": "Elon Musk",
-            "description": "Visionary entrepreneur with a relentless drive for innovation and deep analytical thinking."
+            "description": "Ambitious, analytical, and disruptive in innovation.\nSuccess: CEO of Tesla, SpaceX, and Neuralink.\nMilestone Achievements: Revolutionized electric vehicles, space exploration, and AI; pioneered reusable rockets.\nNet Worth: Estimated at $200 billion+."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Angela_Merkel_%282008%29.jpg",
             "name": "Angela Merkel",
-            "description": "Former German chancellor known for her calculated decision-making and strong leadership."
+            "description": "Methodical, intelligent, and pragmatic in leadership.\nSuccess: Former Chancellor of Germany.\nMilestone Achievements: Led Germany through economic crises, managed EU relations, promoted green energy policies.\nNet Worth: Estimated at $11 million."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Margaret_Thatcher_%281983%29.jpg",
             "name": "Margaret Thatcher",
-            "description": "Determined and strategic leader who reshaped Britain's economic policies."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Steve_Wozniak_by_Gage_Skidmore.jpg",
-            "name": "Steve Wozniak",
-            "description": "Technical genius behind Apple, combining precision with an ambitious drive."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait_headcrop.jpg",
-            "name": "Niccolò Machiavelli",
-            "description": "Political thinker known for his strategic and pragmatic philosophy on power."
-        }
-    ],
-    "Choleric-Phlegmatic": [
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bill_Gates%2C_September_2024.jpg",
-            "name": "Bill Gates",
-            "description": "Tech visionary and philanthropist who combines strategic leadership with a calm demeanor."
+            "description": "Resolute, strategic, and unapologetically firm.\nSuccess: Former UK Prime Minister, “Iron Lady” of politics.\nMilestone Achievements: Transformed Britain’s economy, reduced government intervention, played a pivotal role in ending the Cold War.\nNet Worth: Estimated at $10 million at time of death."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Jeff_Bezos%27_iconic_laugh_crop.jpg",
             "name": "Jeff Bezos",
-            "description": "Founder of Amazon, balancing relentless ambition with calculated decision-making."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Simon_sinek.jpg",
-            "name": "Simon Sinek",
-            "description": "Leadership expert and motivational speaker known for his structured, inspiring approach."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Condoleezza_Rice_cropped.jpg",
-            "name": "Condoleezza Rice",
-            "description": "Former U.S. Secretary of State, known for her diplomatic and strategic mindset."
+            "description": "Relentless, calculated, and strategic in business.\nSuccess: Founder of Amazon and space entrepreneur.\nMilestone Achievements: Revolutionized e-commerce, cloud computing, and logistics; launched Blue Origin for space travel.\nNet Worth: Estimated at $190 billion."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg",
             "name": "Vladimir Putin",
-            "description": "Political leader who exhibits strong control and a strategic, reserved approach to governance."
+            "description": "Cold, strategic, and highly disciplined in governance.\nSuccess: Russian president with decades of control over global politics.\nMilestone Achievements: Reasserted Russia’s geopolitical influence, expanded economic and military power, controlled vast resources.\nNet Worth: Estimated at $70 billion (speculated)."
+        }
+    ],
+    "Choleric-Phlegmatic": [
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/YGL_Alumni_Annual_Summit_2018_%2844711810794%29.jpg/640px-YGL_Alumni_Annual_Summit_2018_%2844711810794%29.jpg",
+            "name": "Iyinoluwa Aboyeji",
+            "description": "Political thinker known for his strategic and pragmatic philosophy on power.\nSuccess: Co-founder of Flutterwave and Andela, shaping Africa’s tech ecosystem.\nMilestone Achievements: Helped build billion-dollar startups, driving innovation and economic growth in Africa.\nNet Worth: Estimated in the multi-million-dollar range."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Denzel_Washington_at_the_2024_Toronto_International_Film_Festival_02_%28cropped%29.jpg/640px-Denzel_Washington_at_the_2024_Toronto_International_Film_Festival_02_%28cropped%29.jpg",
+            "name": "Denzel Washington",
+            "description": "Charismatic, disciplined, and deeply committed to his craft.\nSuccess: Award-winning actor, director, and producer.\nMilestone Achievements: Multiple Academy Awards, acclaimed performances in films like 'Training Day' and 'Malcolm X.'\nNet Worth: Estimated at $280 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Paul_Kagame_2014.jpg/640px-Paul_Kagame_2014.jpg",
+            "name": "Paul Kagame",
+            "description": "Cold, strategic, and highly disciplined in governance.\nSuccess: Rwandan president with a stronghold over national politics.\nMilestone Achievements: Transformed Rwanda into an economic hub, maintained political stability, and strengthened national security.\nNet Worth: Estimated at $500 million (speculated)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait_headcrop.jpg",
+            "name": "Niccolò Machiavelli",
+            "description": "Ruthless, pragmatic, and highly analytical in political strategy.\nSuccess: Influential political philosopher and diplomat.\nMilestone Achievements: Authored 'The Prince,' shaping modern political thought on power and governance.\nNet Worth: Not applicable."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Simon_sinek.jpg",
+            "name": "Simon Sinek",
+            "description": "Inspirational, methodical, and deeply philosophical in leadership.\nSuccess: Bestselling author and motivational speaker.\nMilestone Achievements: Popularized 'Start With Why' and 'The Infinite Game,' influencing leadership and business culture globally.\nNet Worth: Estimated at $20 million."
         }
     ],
     "Melancholy-Sanguine": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg/640px-Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg",
+            "name": "Maya Angelou",
+            "description": "Poetic, introspective, and passionate about social justice.\nSuccess: Renowned poet, author, and civil rights activist.\nMilestone Achievements: Published numerous works, including 'I Know Why the Caged Bird Sings,' and influenced generations with her activism.\nNet Worth: Estimated at $10 million (at time of passing)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Condoleezza_Rice_cropped.jpg",
+            "name": "Condoleezza Rice",
+            "description": "Diplomatic, highly intellectual, and composed under pressure.\nSuccess: Former U.S. Secretary of State and political scientist.\nMilestone Achievements: Played a crucial role in U.S. foreign policy, particularly in post-9/11 global relations.\nNet Worth: Estimated at $12 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg",
+            "name": "Barack Obama",
+            "description": "Charismatic, eloquent, and deeply strategic in leadership.\nSuccess: 44th President of the United States.\nMilestone Achievements: Led the U.S. through economic recovery, passed the Affordable Care Act, and received a Nobel Peace Prize.\nNet Worth: Estimated at $70 million."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
             "name": "Freddie Mercury",
-            "description": "Iconic musician with a dramatic stage presence and deeply emotional songwriting."
+            "description": "Dramatic, emotionally expressive, and intensely creative.\nSuccess: Legendary musician and frontman of Queen.\nMilestone Achievements: Created timeless music, electrified global audiences, and redefined rock performance.\nNet Worth: Estimated at $50 million (at time of passing)."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Emily_Dickinson_writing_a_poem_in_her_bedroom.jpg",
             "name": "Emily Dickinson",
-            "description": "Poet known for her introspective yet imaginative writing."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg",
-            "name": "Vincent van Gogh",
-            "description": "Renowned painter who deeply analyzed human emotions and expressed them through his Melancholy yet expressive artwork."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/JK_Rowling_1999.jpg",
-            "name": "J.K. Rowling",
-            "description": "Author of 'Harry Potter,' blending creativity with deep themes of human nature."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Heath_Ledger.jpg",
-            "name": "Heath Ledger",
-            "description": "Talented actor known for his emotional depth and commitment to complex roles."
+            "description": "Reclusive, deeply introspective, and profoundly imaginative.\nSuccess: One of the most celebrated American poets.\nMilestone Achievements: Wrote nearly 1,800 poems, many posthumously recognized as literary masterpieces.\nNet Worth: Not applicable."
         }
     ],
     "Melancholy-Choleric": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chimamanda_Ngozi_Adichie_%282015%29.png/640px-Chimamanda_Ngozi_Adichie_%282015%29.png",
+            "name": "Chimamanda Ngozi Adichie",
+            "description": "Articulate, bold, and deeply intellectual in storytelling.\nSuccess: Acclaimed novelist and feminist thinker.\nMilestone Achievements: Wrote influential works such as 'Half of a Yellow Sun' and 'We Should All Be Feminists.'\nNet Worth: Estimated at $5 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Okonjo-Iweala%2C_Ngozi_%282008_portrait%29.jpg/640px-Okonjo-Iweala%2C_Ngozi_%282008_portrait%29.jpg",
+            "name": "Ngozi Okonjo Iweala",
+            "description": "Determined, strategic, and highly disciplined in economic policy.\nSuccess: Economist and Director-General of the World Trade Organization.\nMilestone Achievements: Spearheaded economic reforms in Nigeria, first woman to lead the WTO.\nNet Worth: Estimated at $50 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Heath_Ledger.jpg",
+            "name": "Heath Ledger",
+            "description": "Intense, deeply committed, and emotionally complex.\nSuccess: Award-winning actor known for method acting.\nMilestone Achievements: Won a posthumous Academy Award for his role as the Joker in 'The Dark Knight.'\nNet Worth: Estimated at $16 million (at time of passing)."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sir_Isaac_Newton_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
             "name": "Isaac Newton",
-            "description": "Brilliant scientist known for his rigorous work ethic and groundbreaking discoveries."
+            "description": "Incredibly focused, highly analytical, and deeply introspective.\nSuccess: One of the most influential scientists in history.\nMilestone Achievements: Developed classical mechanics, formulated the laws of motion and universal gravitation.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mariecurie.jpg",
             "name": "Marie Curie",
-            "description": "Pioneering scientist whose methodical research in radioactivity revolutionized physics and medicine."
+            "description": "Methodical, relentless, and highly disciplined in scientific discovery.\nSuccess: Pioneering physicist and chemist.\nMilestone Achievements: First woman to win a Nobel Prize, discovered radioactivity, revolutionized physics and medicine.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Howard_Hughes_1938_%28cropped%29.jpg",
             "name": "Howard Hughes",
-            "description": "Inventor and business tycoon with a relentless drive for perfection and control."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
-            "name": "Arthur Schopenhauer",
-            "description": "Philosopher with a deep, strategic mind focused on human nature and existential thought."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/El_Greco_%28Ethniki_Epitheorisis_1870%29.jpg",
-            "name": "El Greco",
-            "description": "Artist whose dramatic and meticulously crafted paintings reflect a Melancholy yet driven personality."
+            "description": "Brilliant, obsessive, and deeply ambitious.\nSuccess: Entrepreneur, filmmaker, and aviation pioneer.\nMilestone Achievements: Built a business empire in aviation and film, set multiple flight records, amassed great wealth.\nNet Worth: Estimated at $11 billion (inflation-adjusted)."
         }
     ],
     "Melancholy-Phlegmatic": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/AbulrazakGurnahHebronPanel_%28cropped%29.jpg/640px-AbulrazakGurnahHebronPanel_%28cropped%29.jpg",
+            "name": "Abdulrazak Gurnah",
+            "description": "Thoughtful, deeply reflective, and patient in storytelling.\nSuccess: Nobel Prize-winning novelist.\nMilestone Achievements: Wrote acclaimed works on exile and displacement, including 'Paradise' and 'Afterlives.'\nNet Worth: Estimated at $5 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bill_Gates%2C_September_2024.jpg",
+            "name": "Bill Gates",
+            "description": "Visionary, strategic, and pragmatic in technology and philanthropy.\nSuccess: Co-founder of Microsoft and global philanthropist.\nMilestone Achievements: Built Microsoft into a tech empire, revolutionized personal computing, established the Bill & Melinda Gates Foundation.\nNet Worth: Estimated at $130 billion."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/El_Greco_%28Ethniki_Epitheorisis_1870%29.jpg",
+            "name": "El Greco",
+            "description": "Dramatic, deeply introspective, and innovative in art.\nSuccess: Influential Renaissance painter and sculptor.\nMilestone Achievements: Developed a unique, highly expressive style that influenced generations of artists.\nNet Worth: Not applicable."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+            "name": "Arthur Schopenhauer",
+            "description": "Deeply analytical, highly philosophical, and pessimistic in worldview.\nSuccess: Influential philosopher in existential and metaphysical thought.\nMilestone Achievements: Authored 'The World as Will and Representation,' shaping Western philosophy.\nNet Worth: Not applicable."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Abraham_Lincoln_head_on_shoulders_photo_portrait.jpg",
             "name": "Abraham Lincoln",
-            "description": "Thoughtful and patient leader who used his deep introspection and calm demeanor to navigate the U.S. through a civil war."
+            "description": "Thoughtful, patient, and deeply principled in leadership.\nSuccess: 16th President of the United States.\nMilestone Achievements: Led the U.S. through the Civil War, abolished slavery, delivered the Gettysburg Address.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Mother_Theresa_in_watercolour.png",
             "name": "Mother Teresa",
-            "description": "Compassionate humanitarian, known for her patient and selfless service to others."
+            "description": "Compassionate, selfless, and deeply spiritual in humanitarian work.\nSuccess: Catholic nun and global humanitarian.\nMilestone Achievements: Founded the Missionaries of Charity, won the Nobel Peace Prize for her service to the poor.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg",
             "name": "J.R.R. Tolkien",
-            "description": "Author of 'The Lord of the Rings,' known for his deep world-building and reflective storytelling."
+            "description": "Highly imaginative, methodical, and deeply introspective in writing.\nSuccess: Renowned fantasy author and academic.\nMilestone Achievements: Created 'The Lord of the Rings' and 'The Hobbit,' shaping modern fantasy literature.\nNet Worth: Estimated at $500 million (estate)."
         },
         {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mahatma_Gandhi_%28114348265%29.jpg",
-            "name": "Mahatma Gandhi",
-            "description": "Nonviolent resistance leader, whose patience and deep sense of justice led to India’s independence."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Fred_Rogers_and_Tatiana_Vedeneyeva_on_Set_of_Mister_Rogers%27_Neighborhood_%28cropped%29.jpg",
-            "name": "Fred Rogers",
-            "description": "Beloved television host, known for his gentle nature and deep care for children's emotional well-being."
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/JK_Rowling_1999.jpg",
+            "name": "J.K. Rowling",
+            "description": "Creative, resilient, and deeply thoughtful in storytelling.\nSuccess: Bestselling author of 'Harry Potter.'\nMilestone Achievements: Built a literary empire, inspired generations, and became one of the world's richest authors.\nNet Worth: Estimated at $1 billion."
         }
     ],
     "Phlegmatic-Sanguine": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Fred_Rogers_and_Tatiana_Vedeneyeva_on_Set_of_Mister_Rogers%27_Neighborhood_%28cropped%29.jpg",
+            "name": "Fred Rogers",
+            "description": "Gentle, warm, and deeply empathetic.\nSuccess: Beloved television host and advocate for children's emotional well-being.\nMilestone Achievements: Created Mister Rogers' Neighborhood, influencing generations with kindness and emotional intelligence.\nNet Worth: Estimated at $3 million (at time of passing)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mahatma_Gandhi_%28114348265%29.jpg",
+            "name": "Mahatma Gandhi",
+            "description": "Peaceful, patient, and deeply principled.\nSuccess: Leader of India's nonviolent independence movement.\nMilestone Achievements: Led India to independence through nonviolent resistance, inspiring global civil rights movements.\nNet Worth: Not applicable."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bob_Marley_1976_press_photo.jpg",
             "name": "Bob Marley",
-            "description": "Musician spreading peace and positivity through his calm yet uplifting music."
+            "description": "Laid-back, uplifting, and spiritually driven.\nSuccess: Iconic musician and reggae pioneer.\nMilestone Achievements: Popularized reggae music worldwide, spreading messages of peace, unity, and love.\nNet Worth: Estimated at $30 million (at time of passing)."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg",
             "name": "Keanu Reeves",
-            "description": "Actor known for his humble, kind, and down-to-earth personality."
+            "description": "Humble, kind, and deeply introspective.\nSuccess: Acclaimed actor and philanthropist.\nMilestone Achievements: Starred in The Matrix and John Wick franchises, admired for his generosity and down-to-earth nature.\nNet Worth: Estimated at $380 million."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tenzin_Gyatso_-_Trento_2013_01.JPG",
             "name": "Dalai Lama",
-            "description": "Spiritual leader promoting peace and emotional balance worldwide."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Weston_Library_Opening_by_John_Cairns_20.3.15-139_David_Attenborough.jpg",
-            "name": "David Attenborough",
-            "description": "Documentary narrator with a soothing, informative, and passionate approach to nature."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Fred_Rogers_and_Tatiana_Vedeneyeva_on_Set_of_Mister_Rogers%27_Neighborhood_%28cropped%29.jpg",
-            "name": "Mister Rogers",
-            "description": "Children’s TV host known for his kindness and ability to connect with people warmly."
+            "description": "Wise, compassionate, and deeply spiritual.\nSuccess: Tibetan spiritual leader and global advocate for peace.\nMilestone Achievements: Won the Nobel Peace Prize for promoting nonviolence and compassion worldwide.\nNet Worth: Not applicable."
         }
     ],
     "Phlegmatic-Choleric": [
         {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg",
-            "name": "Barack Obama",
-            "description": "A calm yet assertive leader, known for his composed demeanor and strategic decision-making."
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ellen_Johnson-Sirleaf%2C_April_2010.jpg/640px-Ellen_Johnson-Sirleaf%2C_April_2010.jpg",
+            "name": "Ellen Johnson Sirleaf",
+            "description": "Resilient, composed, and strategically diplomatic.\nSuccess: First female President of Liberia.\nMilestone Achievements: Led Liberia’s post-war recovery, strengthened democracy, and won the Nobel Peace Prize.\nNet Worth: Estimated at $1.5 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kofi_Annan_2012_%28cropped%29.jpg/640px-Kofi_Annan_2012_%28cropped%29.jpg",
+            "name": "Kofi Annan",
+            "description": "Diplomatic, patient, and firm in leadership.\nSuccess: Former Secretary-General of the United Nations.\nMilestone Achievements: Promoted global peacekeeping, won the Nobel Peace Prize, and reformed UN operations.\nNet Worth: Estimated at $5 million (at time of passing)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Fred_Rogers_and_Tatiana_Vedeneyeva_on_Set_of_Mister_Rogers%27_Neighborhood_%28cropped%29.jpg",
+            "name": "Mister Rogers",
+            "description": "Warm, thoughtful, and deeply kind.\nSuccess: Iconic children’s TV host and educator.\nMilestone Achievements: Created Mister Rogers' Neighborhood, shaping generations with messages of empathy and self-acceptance.\nNet Worth: Estimated at $3 million (at time of passing)."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Weston_Library_Opening_by_John_Cairns_20.3.15-139_David_Attenborough.jpg",
+            "name": "David Attenborough",
+            "description": "Passionate, knowledgeable, and deeply soothing.\nSuccess: Natural historian and legendary documentary narrator.\nMilestone Achievements: Educated millions about the natural world through Planet Earth and other documentaries.\nNet Worth: Estimated at $35 million."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg",
             "name": "Nelson Mandela",
-            "description": "Resilient and diplomatic, combining patience with firm leadership to achieve justice."
+            "description": "Patient, diplomatic, and unwaveringly determined.\nSuccess: Former President of South Africa and anti-apartheid leader.\nMilestone Achievements: Led the fight against apartheid, became South Africa’s first Black president, and won the Nobel Peace Prize.\nNet Worth: Estimated at $10 million (at time of passing)."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Angela_Bassett_2000.jpg",
             "name": "Angela Bassett",
-            "description": "A composed yet commanding actress, known for her controlled yet powerful performances."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg",
-            "name": "Warren Buffett",
-            "description": "Legendary investor, known for his patient, analytical approach to long-term success."
-        },
-        {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Serena_Williams_US_Open_2013.jpg",
-            "name": "Serena Williams",
-            "description": "A focused and disciplined athlete, balancing her calm demeanor with fierce determination."
+            "description": "Composed, commanding, and deeply disciplined.\nSuccess: Award-winning actress and cultural icon.\nMilestone Achievements: Delivered powerful performances in films like What's Love Got to Do with It and Black Panther.\nNet Worth: Estimated at $25 million."
         }
     ],
     "Phlegmatic-Melancholy": [
         {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Serena_Williams_US_Open_2013.jpg",
+            "name": "Serena Williams",
+            "description": "Focused, resilient, and fiercely disciplined.\nSuccess: One of the greatest tennis players of all time.\nMilestone Achievements: Won 23 Grand Slam singles titles, revolutionized women’s tennis, and became an inspiration for athletes worldwide.\nNet Worth: Estimated at $290 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg",
+            "name": "Warren Buffett",
+            "description": "Patient, analytical, and pragmatic in finance.\nSuccess: Legendary investor and CEO of Berkshire Hathaway.\nMilestone Achievements: Became one of the world’s wealthiest individuals by mastering long-term value investing.\nNet Worth: Estimated at $130 billion."
+        },
+        {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/CGJung.jpg",
             "name": "Carl Jung",
-            "description": "Pioneering psychologist whose deep introspection led to groundbreaking theories in personality and human nature."
+            "description": "Deeply introspective, analytical, and visionary in psychology.\nSuccess: Founder of analytical psychology.\nMilestone Achievements: Developed concepts like the collective unconscious and archetypes, revolutionizing psychology.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/George_Orwell%2C_c._1940_%2841928180381%29.jpg",
             "name": "George Orwell",
-            "description": "Author of '1984,' using his observant and analytical mind to critique societal structures."
+            "description": "Observant, critical, and deeply analytical.\nSuccess: Influential writer and political thinker.\nMilestone Achievements: Authored 1984 and Animal Farm, shaping discussions on totalitarianism and surveillance.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/HarperLee_2007Nov05.jpg",
             "name": "Harper Lee",
-            "description": "Author of 'To Kill a Mockingbird,' known for her quiet, observant nature and impactful storytelling."
+            "description": "Quiet, observant, and profoundly insightful.\nSuccess: Pulitzer Prize-winning author.\nMilestone Achievements: Wrote To Kill a Mockingbird, a defining novel on racial injustice and morality.\nNet Worth: Estimated at $35 million (estate)."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg",
             "name": "Alan Turing",
-            "description": "Mathematical genius who laid the foundation for modern computing while working in quiet brilliance."
+            "description": "Brilliant, methodical, and deeply private.\nSuccess: Mathematician and father of modern computing.\nMilestone Achievements: Cracked the Enigma code, laying the foundation for artificial intelligence and modern cryptography.\nNet Worth: Not applicable."
         },
         {
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Jane_Goodall_2010.jpg",
             "name": "Jane Goodall",
-            "description": "Primatologist known for her patient, methodical research and deep connection to nature."
+            "description": "Patient, empathetic, and meticulous in research.\nSuccess: World-renowned primatologist and conservationist.\nMilestone Achievements: Transformed our understanding of chimpanzees and animal behavior, advocating for conservation worldwide.\nNet Worth: Estimated at $10 million."
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Steve_Wozniak_by_Gage_Skidmore.jpg",
+            "name": "Steve Wozniak",
+            "description": "Precise, innovative, and technically brilliant.\nSuccess: Co-founder of Apple Inc.\nMilestone Achievements: Designed the Apple I and Apple II computers, pioneering the personal computing revolution.\nNet Worth: Estimated at $100 million."
         }
     ]
 }
