@@ -3,13 +3,12 @@ import random
 def calculate_temperament_scores(scores):
     """
     Convert raw temperament scores into percentages for primary and secondary temperaments.
-    Only values of 4 and 5 are considered.
     """
     # Sum only values that are 4 or 5 for each temperament
-    filtered_scores = {k: sum(val for val in values if val >= 4) for k, values in scores.items()}
+    filtered_scores = {k: sum(val for val in values if val >= 1) for k, values in scores.items()}
     
     if not any(filtered_scores.values()):
-        raise ValueError("Invalid scores: No temperament has a valid score (4 or 5).")
+        raise ValueError("Invalid scores")
     
     # Sort temperaments by their filtered score (highest first)
     sorted_temperaments = sorted(filtered_scores.items(), key=lambda x: x[1], reverse=True)
