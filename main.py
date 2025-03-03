@@ -179,14 +179,14 @@ def predict(input_data: PersonalityInput):
     # Step 1: Calculate Temperament Scores
     dominant, dominant_percentage, secondary, secondary_percentage = calculate_temperament_scores(responses)
 
-    # Step 2: Determine Dominant and Secondary Temperaments
-    dominant_percentage = round(dominant_percentage / 100, 2)
-    secondary_percentage = round(secondary_percentage / 100, 2)
-
-    # Step 3: Recommend Career Paths
+    # Step 2: Recommend Career Paths
     recommendations = recommend_career(dominant, dominant_percentage, secondary, secondary_percentage)
     ml_features = convert_temperament_to_features(responses["melancholy"], responses["sanguine"], responses["phlegmatic"], responses["choleric"])
     ml_career = ml_model_processing(ml_features) or {"career_category": "General Studies"}
+
+    # Step 3: Adjust the percentages
+    dominant_percentage = round(dominant_percentage / 100, 2)
+    secondary_percentage = round(secondary_percentage / 100, 2)
 
     # Step 4: Generate AI-powered career description
     primary_field = recommendations["primary"]["fieldOfStudy"]["name"]
