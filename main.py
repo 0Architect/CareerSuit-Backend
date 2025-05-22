@@ -185,8 +185,8 @@ def predict(input_data: PersonalityInput):
     ml_career = ml_model_processing(ml_features) or {"career_category": "General Studies"}
 
     # Step 3: Adjust the percentages
-    dominant_percentage = round(dominant_percentage / 100, 2)
-    secondary_percentage = round(secondary_percentage / 100, 2)
+    dominant_decimal = round(dominant_percentage / 100, 2)
+    secondary_decimal = round(1.00 - dominant_decimal, 2)
 
     # Step 4: Generate AI-powered career description
     primary_field = recommendations["primary"]["fieldOfStudy"]["name"]
